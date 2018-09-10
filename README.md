@@ -10,3 +10,4 @@ If the market jumps by a predetermined amount in a short amount of time, open a 
 - Tests post only and taker orders, you can customize which you choose 
 - Buys and sells at best current price 
   - Tries a buy order at the current price, if it's rejected, place the buy order for 1¢ lower than asking 
+- Scales the investment amount down as time proceeds during the price rise in order to mitigate risk 
